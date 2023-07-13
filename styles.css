@@ -47,12 +47,6 @@
 .icon-user-outline:before {
   content: "\63";
 }
-.icon-crown-king-streamline:before {
-  content: "\64";
-}
-.icon-crown:before {
-  content: "\65";
-}
 .icon-star-o:before {
   content: "\66";
 }
@@ -100,4 +94,43 @@
 }
 .icon-list:before {
   content: "\75";
+}
+.icon-left-open-big:before {
+  content: "\76";
+}
+.icon-right-open-big:before {
+  content: "\77";
+}
+.icon-down-open-big:before {
+  content: "\78";
+}
+.icon-up-open-big:before {
+  content: "\79";
+}
+.icon-right-dir:before {
+  content: "\7a";
+}
+.icon-play-circle:before {
+  content: "\42";
+}
+.icon-indent-more:before {
+  content: "\41";
+}
+.icon-plus:before {
+  content: "\43";
+}
+.icon-calendar:before {
+  content: "\44";
+}
+.icon-crown-1:before {
+  content: "\45";
+}
+.icon-filter-2:before {
+  content: "\64";
+}
+.icon-list-nested:before {
+  content: "\65";
+}
+.icon-align-left:before {
+  content: "\46";
 }
