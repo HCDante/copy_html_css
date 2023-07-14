@@ -1,19 +1,61 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
     background: rgb(0, 0, 0);
+    color: white;
 }
-.header, .footer{
+
+.header,
+.footer {
     width: 100%;
 }
-section{
+
+section {
     width: 83%;
     height: auto;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child {
+    flex: 0 1;
+    flex: 1 1;
+    border: 1px solid;
+    text-align: center;
+}
+
+[type="checkbox"]{
+    display: none;
+}
+
+.buttonAdd{
+    padding: 1.5rem;
+}
+
+.btn1{
+    padding: 16px 32px;
+    position: relative;
+    margin-left: 6px;
+    background-color: black;
+    color: white;
+    border: 3px solid #e52626;
+}
+
+.btn2{
+    padding: 16px 32px;
+    position: relative;
+    background-color: black;
+    color: rgb(197, 184, 184);
+    border: none;
 }
