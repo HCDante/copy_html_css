@@ -39,16 +39,16 @@ section {
     padding-top: 3rem;
 }
 
-[type="checkbox"]{
+[type="checkbox"] {
     display: none;
 }
 
-.buttonAdd{
+.buttonAdd {
     padding: 1.5rem;
     align-content: flex-start;
 }
 
-.btn1{
+.btn1 {
     padding: 10px 32px;
     position: relative;
     margin-left: 6px;
@@ -57,23 +57,24 @@ section {
     border: 3px solid #ff944d;
 }
 
-.btn2{
+.btn2 {
     padding: 16px 32px;
     position: relative;
     background-color: black;
     color: rgb(197, 184, 184);
     border: none;
 }
-.description{
+
+.description {
     text-align: left;
     line-height: 1.5em;
 }
 
-.buttonGender{
+.buttonGender {
     padding: 20px;
 }
 
-.btn3{
+.btn3 {
     padding: 8px 12px;
     margin-left: 3px;
     background-color: #324953;
@@ -82,7 +83,7 @@ section {
 
 }
 
-.btn4{
+.btn4 {
     padding: 16px 73px;
     position: relative;
     margin-left: 6px;
@@ -98,7 +99,8 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
-.cardDescription{
+
+.cardDescription {
     width: 330px;
     height: 300px;
     border-radius: 8px;
@@ -107,7 +109,7 @@ section {
     padding-top: 3rem;
 }
 
-.cardDescription img{
+.cardDescription img {
     width: 310px;
     height: 170px;
     padding-top: 1rem;
@@ -118,13 +120,16 @@ section {
     padding-top: 0.5rem;
 }
 
-.p1{
+.p1 {
     padding-top: 0.5rem;
-    font-size: 16px;
+    font-size: 11px;
     font-weight: 300;
-} 
-.p2{
+    color: darkgray;
+}
+
+.p2 {
     padding-top: 1.5rem;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 300;
+    color: darkgray;
 }
