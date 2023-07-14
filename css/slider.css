@@ -1,0 +1,63 @@
+.slider{
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica,helvetica,sans-serif;
+}
+.contenidoSlider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+.boxSlider{
+    display: inline-flex;
+    width: 14%;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.slider h3{
+    color: white;
+    margin-bottom: 1.3rem;
+}
+.boxData svg{
+    fill: white;
+}
+.boxVisible, .boxInvisible{
+    display: flex;
+    flex-direction: column;
+}
+.boxInvisible{
+    visibility: hidden;
+    position: absolute;
+}
+
+
+figure{
+   width: 100%;
+   height: 90%;
+}
+figure img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.boxVisible h4{
+   font-size: 13px;
+   margin-top: 10px;
+   color: white;
+}
+
+.boxVisible span{
+    font-size: 13px;
+    margin-top: 5px;
+    color: rgb(149, 149, 149);
+}
+
+.btnNext{
+    height:40px;
+    width: 25px;
+    background: black;
+    border: 1px solid black;
+}

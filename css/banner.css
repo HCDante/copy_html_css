@@ -1,0 +1,74 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    background: blue;
+    background: linear-gradient(180deg,#008382,#000);
+    height: 90px;
+    z-index: -11111;
+    font-family: Helvetica,helvetica,sans-serif;
+}
+.containerBanner{
+    display: flex;
+    position:absolute;
+    width: 83%;
+    height: 90px;  
+}
+.containerBannerContent{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+.containerBanner img{
+    object-fit: fill;
+    width: 100%;
+    z-index: -11111;
+}
+.containerBannerCrown{
+    width: 15%;
+    margin-right: 5px;
+    
+}
+.containerBannerCrown img:nth-child(1) {
+    height: 85px;
+    margin-left: 41px;
+}
+.containerBannerCrown img:nth-child(2){
+    width: 25px;
+    margin-left: 2px;
+    position: absolute;
+}
+
+.containerBannerDescription{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width:85%;
+    color: white;
+}
+.containerBannerDescriptionText{
+    width: 60%;
+}
+.containerBannerDescriptionText h4{
+    margin-bottom: 8px;
+}
+.containerBannerDescriptionText p{
+    font-size: 14px;
+}
+.containerBannerDescriptionButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    
+}
+.containerBannerDescriptionStart{
+    position: relative;
+    left: 1px;
+}
+.containerBannerDescriptionButton a{
+    width: 90%;
+    color: white;
+    text-decoration: none;
+}
