@@ -1,0 +1,82 @@
+.comments{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: black;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.commentHeader {
+    color: white;
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+}
+.commentDate{
+    color: rgb(184, 180, 180);
+}
+.commentRating {
+    color: white;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.userName {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 0;  
+}
+.commentTitle{
+    color: white;
+    font-size: 22px;
+    font-family: 'Maiandra GD';
+    padding: 20px;
+}
+.commentText {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Maiandra GD';
+}
+.commentFooter {
+    color: rgb(184, 180, 180);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 0%;
+}
+.buttonsConteiner{
+    display: flex;
+    gap: 10px;
+}
+.bAnswer {
+    color:rgb(58, 243, 243);
+    background-color: black;
+    border: none;
+    padding-top: 0%;
+}
+.bAnswer:hover{
+    color: white;
+}
+.footerIcons {
+    display: flex;
+    gap: 10px;
+    padding-top: 0%;
+}
+.bicon{
+    background-color: black;
+    color: rgb(184, 180, 180);
+    border: none;
+}
+.bicon:hover{
+    color: white;
+}

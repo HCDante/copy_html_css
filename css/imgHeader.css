@@ -1,0 +1,27 @@
+.backgroundBlurred{
+    position: relative;
+    width: 100%;
+}
+.imageBlurred {
+    background-image: url(../src/headerDS.jpe);
+    filter: blur(10px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+.backgroundImage {
+    position: absolute;
+    background-image: url(../src/headerDS.jpe);
+    background-position: center center;
+    background-size: cover;
+    width: 40%;
+    height: 300px;
+    top: 0%;
+    left: 30%;
+    margin: 0;
+    padding: 0;
+}
