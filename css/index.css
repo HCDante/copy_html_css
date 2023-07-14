@@ -11,6 +11,7 @@ body {
     box-sizing: border-box;
     background: rgb(0, 0, 0);
     color: white;
+    font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
 .header,
@@ -23,6 +24,8 @@ section {
     height: auto;
 }
 
+/*Estilos de episodeDescription*/
+
 .parent {
     display: flex;
     flex-wrap: wrap;
@@ -33,6 +36,7 @@ section {
     flex: 1 1;
     border: 1px solid;
     text-align: center;
+    padding-top: 3rem;
 }
 
 [type="checkbox"]{
@@ -41,15 +45,16 @@ section {
 
 .buttonAdd{
     padding: 1.5rem;
+    align-content: flex-start;
 }
 
 .btn1{
-    padding: 16px 32px;
+    padding: 10px 32px;
     position: relative;
     margin-left: 6px;
     background-color: black;
-    color: white;
-    border: 3px solid #e52626;
+    color: #ff944d;
+    border: 3px solid #ff944d;
 }
 
 .btn2{
@@ -58,4 +63,68 @@ section {
     background-color: black;
     color: rgb(197, 184, 184);
     border: none;
+}
+.description{
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.buttonGender{
+    padding: 20px;
+}
+
+.btn3{
+    padding: 8px 12px;
+    margin-left: 3px;
+    background-color: #324953;
+    color: white;
+    border: none;
+
+}
+
+.btn4{
+    padding: 16px 73px;
+    position: relative;
+    margin-left: 6px;
+    background-color: #ff944d;
+}
+
+/* Fin de los estilos de episodeDescription */
+
+/*Incio de los estilos de las cards de los episodios*/
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardDescription{
+    width: 330px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.cardDescription img{
+    width: 310px;
+    height: 170px;
+    padding-top: 1rem;
+}
+
+.cardDescription h4 {
+    font-weight: 600;
+    padding-top: 0.5rem;
+}
+
+.p1{
+    padding-top: 0.5rem;
+    font-size: 16px;
+    font-weight: 300;
+} 
+.p2{
+    padding-top: 1.5rem;
+    font-size: 16px;
+    font-weight: 300;
 }
