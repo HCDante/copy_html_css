@@ -17,3 +17,12 @@ section{
     width: 83%;
     height: auto;
 }
+.footer {
+    color: white;
+}
+.footerDetails{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 5%;
+}
