@@ -11,7 +11,8 @@ body {
     box-sizing: border-box;
     background: rgb(0, 0, 0);
     color: white;
-    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .header,
@@ -44,8 +45,10 @@ section {
 }
 
 .buttonAdd {
-    padding: 1.5rem;
-    align-content: flex-start;
+    padding: 20px 20px 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
 }
 
 .btn1 {
@@ -71,12 +74,15 @@ section {
 }
 
 .buttonGender {
-    padding: 20px;
+    padding: 20px 20px 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
 }
 
 .btn3 {
     padding: 8px 12px;
-    margin-left: 3px;
+    margin-left: 0.5em;
     background-color: #324953;
     color: white;
     border: none;
@@ -97,7 +103,7 @@ section {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 .cardDescription {
@@ -118,6 +124,7 @@ section {
 .cardDescription h4 {
     font-weight: 600;
     padding-top: 0.5rem;
+    text-align: start;
 }
 
 .p1 {
@@ -125,6 +132,7 @@ section {
     font-size: 11px;
     font-weight: 300;
     color: darkgray;
+    text-align: start;
 }
 
 .p2 {
@@ -132,4 +140,5 @@ section {
     font-size: 13px;
     font-weight: 300;
     color: darkgray;
+    text-align: start;
 }
