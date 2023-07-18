@@ -1,0 +1,93 @@
+.banner{
+    display:inline-flex;
+    position: relative;
+    height: 108px;
+    background-image: linear-gradient(180deg,#008382,#000);
+    z-index: -1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.banner img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.containerCrown{
+    display: inline-flex;
+    position: relative;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 150px;    
+
+}
+.containerCrown img:nth-child(1){
+    width: 100px;
+    height: 98px;
+    margin-right: 25px;
+}
+.containerCrown img:nth-child(2){
+    width: 29px;
+    height: 40px;
+    top: 8px;
+}
+.containerPlanPremium{
+    color: white;
+    display:flex;
+    width: 86%;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 2px;
+}
+.descriptionPremium{
+    width: 70%;
+}
+.descriptionPremium h4{
+    margin-bottom: 5px;
+    font-size: 1.05rem;
+}
+.descriptionPremium p{
+    font-size: .875rem;   
+}
+
+.buttonPremium{
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.buttonPremium img{
+    position: absolute;
+    width: 39px;
+    height: 34px;
+    top: 5px;
+    left: 0px;
+}
+.buttonPremium a{
+    display:inline-flex;
+    width: 90%; 
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    background: #FAB818;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+}
+.buttonPremium span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: .875rem;
+    font-weight: bold;
+}
+.buttonPremium span svg{
+    width: 25px;
+    margin-right: 5px;
+}
