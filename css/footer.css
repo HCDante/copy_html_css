@@ -1,0 +1,113 @@
+.footer {
+    background: linear-gradient(to bottom,#000000, #1c333f);
+    color: #ffffff;
+    font-family: 'Maiandra GD';
+    padding: 40px;
+}
+.footerDetails{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 19%;
+    padding-left: 6%;
+}
+.footerSection{
+    flex: 0 0 30%;
+}
+h4{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+ul {
+    list-style-type: none;
+    color: #9a9b9c;
+    font-size: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+ul li {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+    text-decoration: underline;
+}
+i {
+    padding-right: 10px; 
+}
+.iconListCrown{
+    color: orange;
+}
+[class^="iconList"]:hover{
+    color: white;
+    text-decoration: none;
+}
+span:hover{
+    text-decoration: underline;
+}
+hr {
+    margin: auto;
+    background-color: #67696e;
+    border: none;
+    height: 0.5px;
+    width: 90%;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    color: #9a9b9c;
+    font-size: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20px;
+}
+.footerLanguage {
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+}
+.languageDropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 10%;
+}
+.languageCurrent {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.languageOptions{
+    position: absolute;
+    width: 200%;
+    bottom: 100%;
+    right: 0;
+    background-color: #23242b;
+    padding: 10px;
+    list-style-type: none;
+    display: none;
+}
+.languageOptions li {
+    padding:5px 0;
+}
+.languageOptions a {
+    color: #9a9b9c;
+    text-decoration: none;
+}
+.footerLanguage:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.languageDropdown:active .languageOptions {
+    display: block;
+}
+@media screen and (max-width:800px) {
+    .footerDetails{
+        display: flex;
+        flex-direction: column;
+    }
+}
