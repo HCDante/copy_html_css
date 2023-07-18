@@ -169,7 +169,7 @@
   }
   /* Tercer párrafo */
   .cardInvisible p:nth-of-type(3){
-    color: chocolate;
+    color: #f47521;
     text-transform: uppercase;
     font-weight: 900;
   }

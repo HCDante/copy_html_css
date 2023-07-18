@@ -25,3 +25,6 @@ section {
     height: auto;
 }
 
+button {
+    cursor: pointer;
+}
