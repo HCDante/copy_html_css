@@ -29,15 +29,14 @@
     flex-direction: column;
 }
 .boxInvisible{
-    /*visibility: hidden;
-    position: absolute;*/
     opacity: 0;
     position: absolute;
     pointer-events: none;
 }
 .boxSlider:hover .boxVisible {
-    opacity: 0;
+    opacity: .2;
     pointer-events: none;
+    background-repeat: no-repeat;
 }
 .boxSlider:hover .boxInvisible {
     opacity: 1;
@@ -98,4 +97,63 @@ figure img{
 }
 .containerButtons button:focus{
     background: #f47521;
+}
+
+.boxInvisible h4{
+    display: inline-flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: white;
+    font-size: .875rem;
+}
+.boxData{
+    display: inline-flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: #dadada;
+}
+.boxData p{
+    width: auto;
+    font-size:.875rem;
+    margin-right: 5px;
+}
+.boxData svg{
+    width: .875rem;
+    margin-right: 5px;
+}
+.boxTE{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: .875rem;
+    color: #a0a0a0;
+}
+.boxTE span{
+    margin-bottom: 2px;
+}
+.boxDescription{
+        word-wrap: break-word;
+        -webkit-box-orient: vertical;
+        --max-lines: 7;
+        display: flex;
+        width: 80%;
+        max-height: calc(var(--max-lines)*1.125rem);
+        overflow: hidden;
+        overflow-wrap: break-word;
+        white-space: unset;
+        word-break: break-word;
+        font-size: 5px;
+}
+.boxIcon{
+    display: flex;
+    margin-top: 50px;
+    width:  1.5rem;    
+}
+.icon{
+    margin-right: 10px;
+}
+.boxIcon svg{
+    width: 1.5rem;
+    fill: #f47521;
 }
