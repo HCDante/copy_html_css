@@ -107,10 +107,10 @@
 .cardDescription .time {
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
-    padding: 5px 10px;
+    padding: 4px 8px;
     position: absolute;
-    bottom: 115px;
-    right: 10px;
+    bottom: 164px;
+    right: 13px;
     opacity: .9;
 }
 
@@ -118,7 +118,7 @@
     position: absolute;
     color: #fff;
     text-decoration: none;
-    top: 45%; 
+    top: 30%; 
     left: 50%; 
     transform: translate(-50%, -50%);
     font-size: 60px;
