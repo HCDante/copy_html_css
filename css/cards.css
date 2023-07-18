@@ -41,3 +41,71 @@
     color: rgb(149, 149, 149);;
     text-align: start;
 }
+
+
+/*Incio de los estilos de las cards de los episodios*/
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.cardDescription {
+    position: relative;
+    width: 330px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.cardDescription img {
+    width: 310px;
+    height: 170px;
+    padding-top: 1rem;
+}
+
+.cardDescription h4 {
+    font-weight: 600;
+    padding-top: 0.5rem;
+    text-align: start;
+}
+
+.p1 {
+    padding-top: 0.5rem;
+    font-size: 11px;
+    color: rgb(149, 149, 149);
+    text-align: start;
+}
+
+.p2 {
+    padding-top: 1.5rem;
+    font-size: 13px;
+    color: rgb(149, 149, 149);;
+    text-align: start;
+}
+
+/* Botón de reproducción y tiempo */
+
+.cardDescription .time {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 115px;
+    right: 10px;
+    opacity: .9;
+  }
+
+  .cardDescription .play {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    top: 45%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    opacity: 0.5;
+  }
