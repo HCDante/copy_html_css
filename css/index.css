@@ -1,19 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
     background: rgb(0, 0, 0);
+    color: white;
 }
-.header, .footer{
+
+.header,
+.footer {
     width: 100%;
 }
-section{
+
+section {
     width: 83%;
     height: auto;
 }
+
