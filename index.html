@@ -7,9 +7,11 @@
     <title>Crunchyroll copy</title>
     <link href="https://file.myfontastic.com/Y222N2wMB72MmKqLydX8s9/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/episodeDescription.css">
+    <link rel="stylesheet" href="css/cards.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,38 +30,19 @@
                 <div class="title">
                     <h1>Demon Slayer: Kimetsu no Yaiba</h1>
                 </div>
-                <p>Sub | Dob</p>
-                <div>
-                    <form action="">
-                        <input type="checkbox" name="estrella1" id="estrella1">
-                        <label for="estrella1">
-                            <div class="icon icon-star"></div>
-                        </label>
-
-                        <input type="checkbox" name="estrella2" id="estrella2">
-                        <label for="estrella2">
-                            <div class="icon icon-star"></div>
-                        </label>
-
-                        <input type="checkbox" name="estrella3" id="estrella3">
-                        <label for="estrella3">
-                            <div class="icon icon-star"></div>
-                        </label>
-
-                        <input type="checkbox" name="estrella4" id="estrella4">
-                        <label for="estrella4">
-                            <div class="icon icon-star"></div>
-                        </label>
-
-                        <input type="checkbox" name="estrella5" id="estrella5">
-                        <label for="estrella5">
-                            <div class="icon icon-star"></div>
-                        </label>
-                    </form>
-                    <label for="puntuacion">Puntuación media: 4.9 (2.995K)</label>
+                <p class="p3">Sub | Dob</p>
+                <div class="form-check">
+                    <div class="icon icon-star"></div>
+                    <div class="icon icon-star"></div>
+                    <div class="icon icon-star"></div>
+                    <div class="icon icon-star"></div>
+                    <div class="icon icon-star"></div>
+                    <label for="puntuacion">
+                        <p>| Puntuación media: <span>4.9 (2.995K)</span></p>
+                    </label>
                     <select name="puntuacionEscala" id="">
                         <option value="puntuacion1">
-                            <div class="icon icon-star"></div>
+                            <li><div class="icon icon-star"></div></li>
                         </option>
                         <option value="puntuacion2">
                             <div class="icon icon-star"></div>
@@ -74,53 +57,57 @@
                             <div class="icon icon-star"></div>
                         </option>
                     </select>
-                    <p>855 reseñas</p>
-                    <div class="buttonAdd">
-                        <button class="btn1">
-                            <div data-icon="b" class="icon"> AÑADIR A MI LISTA</div>
-                        </button>
-                        <button class="btn2">
-                            <div class="icon icon-plus"> AÑADIR A MI CRUNCHYLISTA</div>
-                        </button>
-                    </div>
-                    <div class="description">
-                        Estamos en la era Taisho de Japón. Tanjiro, un joven que se gana la vida vendiendo carbón,
-                        descubre un día que su familia ha sido asesinada por un demonio. Para empeorar las cosas,
-                        su
-                        hermana menor Nezuko, la única superviviente de la masacre, ha sufrido una transformación en
-                        demonio.
-                        <br><br>
-                        Destrozado por los acontecimientos Tanjiro decide convertirse en un cazador de demonios para
-                        poder devolver a su hermana a la normalidad y matar al demonio que masacró a su familia.
-                    </div>
-                    <div class="buttonGender">
-                        <button class="btn3">ACCIÓN</button>
-                        <button class="btn3">FANTASIA</button>
-                        <button class="btn3">SHOUNEN</button>
-                    </div>
-                    <div class="table">
-                        <table>
-                            <tr>
-                                <td>Editor</td>
-                                <td>Aniplex of America</td>
-                            </tr>
-                            <tr>
-                                <td>Audio</td>
-                                <td>Japonés, Español (América Latina), English, Português (Brasil)</td>
-                            </tr>
-                            <tr>
-                                <td>Subtítulos</td>
-                                <td>Español (América Latina), English, Deutsch, Español (España), Français, Italiano,
-                                    Português (Brasil), Русский, العربية, हिंदी
-                            </tr>
-                        </table>
-                        <div>
-                            <p>MENOS DETALLES</p>
-                        </div>
+                    <span> | 887 Reseñas</span>
+                </div>
+                <div class="buttonAdd">
+                    <button class="btn1">
+                        <p><div data-icon="b" class="icon"> AÑADIR A MI LISTA</div></p>
+                    </button>
+                    <button class="btn2">
+                        <div class="icon icon-plus iconomas"> AÑADIR A MI CRUNCHYLISTA</div>
+                    </button>
+                </div>
+                <div class="description">
+                    Estamos en la era Taisho de Japón. Tanjiro, un joven que se gana la vida vendiendo carbón,
+                    descubre un día que su familia ha sido asesinada por un demonio. Para empeorar las cosas,
+                    su
+                    hermana menor Nezuko, la única superviviente de la masacre, ha sufrido una transformación en
+                    demonio.
+                    <br><br>
+                    Destrozado por los acontecimientos Tanjiro decide convertirse en un cazador de demonios para
+                    poder devolver a su hermana a la normalidad y matar al demonio que masacró a su familia.
+                </div>
+                <div class="buttonGender">
+                    <button class="btn3">ACCIÓN</button>
+                    <button class="btn3">FANTASIA</button>
+                    <button class="btn3">SHOUNEN</button>
+                </div>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <td class="izquierda">Editor</td>
+                            <td class="centro"></td>
+                            <td class="derecha">Aniplex of America</td>
+                        </tr>
+                        <tr>
+                            <td class="izquierda">Audio</td>
+                            <td class="centro"></td>
+                            <td class="derecha">Japonés, Español (América Latina), English, Português (Brasil)</td>
+                        </tr>
+                        <tr>
+                            <td class="izquierda">Subtítulos</td>
+                            <td class="centro"></td>
+                            <td class="derecha">Español (América Latina), English, Deutsch, Español (España), Français,
+                                Italiano,
+                                Português (Brasil), Русский, العربية, हिंदी
+                        </tr>
+                    </table>
+                    <div>
+                        <p class="p3">MENOS DETALLES</p>
                     </div>
                 </div>
             </div>
-            <div class="child">
+            <div class="child1">
                 <img class="img1" src="./src/imagen1.jpe" alt="">
                 <div>
                     <button class="btn4">

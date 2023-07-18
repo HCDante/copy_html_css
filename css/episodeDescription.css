@@ -1,0 +1,106 @@
+/*Estilos de episodeDescription*/
+
+/*Se agregan los estilos para dividir la pantalla*/
+.parent {
+    display: flex;
+    padding-top: 3rem;
+}
+
+.child {
+    width: 65%;
+}
+.child1{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+/*Se cierran los estilos para dividir la pantalla*/
+
+.title{
+    font-size: 1.5em;
+    margin-bottom: 1.5rem;
+}
+
+.p3 {
+    color: rgb(149, 149, 149);;
+}
+
+.form-check{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.buttonAdd {
+    padding: 20px 20px 20px 0;
+    display: flex;
+    display: inline-block;
+    text-align: start;
+    font-weight: bold;
+}
+
+.btn1 {
+    padding: 10px 32px;
+    position: relative;
+    margin-left: 6px;
+    background-color: black;
+    color: #ff944d;
+    border: 3px solid #ff944d;
+}
+
+.btn2 {
+    position: relative;
+    padding: 16px 32px;
+    background-color: black;
+    color: rgb(197, 184, 184);
+    border: none;
+}
+
+.description {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.buttonGender {
+    padding: 20px 20px 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.btn3 {
+    padding: 8px 12px;
+    margin-left: 0.5em;
+    background-color: #324953;
+    color: white;
+    border: none;
+
+}
+
+.btn4 {
+    padding: 16px 73px;
+    position: relative;
+    margin-left: 6px;
+    background-color: #ff944d;
+    font-weight: bold;
+}
+
+table {
+   line-height: 2rem;
+}
+
+table .izquierda {
+    text-align: start;
+}
+
+table .derecha {
+    text-align: end;
+
+}
+
+table .centro {
+    width: 150px;
+}
+
+/* Fin de los estilos de episodeDescription */

@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 body {
@@ -11,8 +13,6 @@ body {
     box-sizing: border-box;
     background: rgb(0, 0, 0);
     color: white;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
 }
 
 .header,
@@ -25,120 +25,3 @@ section {
     height: auto;
 }
 
-/*Estilos de episodeDescription*/
-
-.parent {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.child {
-    flex: 0 1;
-    flex: 1 1;
-    border: 1px solid;
-    text-align: center;
-    padding-top: 3rem;
-}
-
-[type="checkbox"] {
-    display: none;
-}
-
-.buttonAdd {
-    padding: 20px 20px 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: start;
-}
-
-.btn1 {
-    padding: 10px 32px;
-    position: relative;
-    margin-left: 6px;
-    background-color: black;
-    color: #ff944d;
-    border: 3px solid #ff944d;
-}
-
-.btn2 {
-    padding: 16px 32px;
-    position: relative;
-    background-color: black;
-    color: rgb(197, 184, 184);
-    border: none;
-}
-
-.description {
-    text-align: left;
-    line-height: 1.5em;
-}
-
-.buttonGender {
-    padding: 20px 20px 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: start;
-}
-
-.btn3 {
-    padding: 8px 12px;
-    margin-left: 0.5em;
-    background-color: #324953;
-    color: white;
-    border: none;
-
-}
-
-.btn4 {
-    padding: 16px 73px;
-    position: relative;
-    margin-left: 6px;
-    background-color: #ff944d;
-}
-
-/* Fin de los estilos de episodeDescription */
-
-/*Incio de los estilos de las cards de los episodios*/
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-
-.cardDescription {
-    width: 330px;
-    height: 300px;
-    border-radius: 8px;
-    overflow: hidden;
-    text-align: center;
-    padding-top: 3rem;
-}
-
-.cardDescription img {
-    width: 310px;
-    height: 170px;
-    padding-top: 1rem;
-}
-
-.cardDescription h4 {
-    font-weight: 600;
-    padding-top: 0.5rem;
-    text-align: start;
-}
-
-.p1 {
-    padding-top: 0.5rem;
-    font-size: 11px;
-    font-weight: 300;
-    color: darkgray;
-    text-align: start;
-}
-
-.p2 {
-    padding-top: 1.5rem;
-    font-size: 13px;
-    font-weight: 300;
-    color: darkgray;
-    text-align: start;
-}
