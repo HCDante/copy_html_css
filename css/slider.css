@@ -15,6 +15,7 @@
     width: 15%;
     text-decoration: none;
     margin-right: 15px;
+    position: relative;
 }
 
 .slider h3{
@@ -118,7 +119,7 @@ figure img{
     margin-right: 5px;
 }
 .boxData svg{
-    width: .875rem;
+    width: auto;
     margin-right: 5px;
 }
 .boxTE{
@@ -145,15 +146,17 @@ figure img{
         word-break: break-word;
         font-size: 5px;
 }
-.boxIcon{
-    display: flex;
+.boxIconInVisible{
+    display:inline-flex;
     margin-top: 50px;
-    width:  1.5rem;    
+    width: 100px;
+   
 }
-.icon{
-    margin-right: 10px;
+.iconInVisible{
+    display: block;
 }
-.boxIcon svg{
-    width: 1.5rem;
+.iconInVisible svg{
     fill: #f47521;
+    width: 25px;
+    margin: 0;
 }
