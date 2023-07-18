@@ -8,6 +8,7 @@
 }
 
 .cardDescription {
+    position: relative;
     width: 330px;
     height: 300px;
     border-radius: 8px;
@@ -15,7 +16,21 @@
     text-align: center;
     padding-top: 3rem;
 }
-
+.cardVisible, .cardInvisible {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.cardVisible{
+    opacity: 1;
+    pointer-events: none;
+}
+.cardInvisible{
+    opacity: 0;
+    pointer-events: none;
+}
 .cardDescription img {
     width: 310px;
     height: 170px;
@@ -97,9 +112,9 @@
     bottom: 115px;
     right: 10px;
     opacity: .9;
-  }
+}
 
-  .cardDescription .play {
+.cardDescription .play {
     position: absolute;
     color: #fff;
     text-decoration: none;
@@ -108,4 +123,12 @@
     transform: translate(-50%, -50%);
     font-size: 60px;
     opacity: 0.5;
-  }
+}
+.cardDescription:hover .cardVisible{
+    opacity: 0;
+    pointer-events: none;
+}
+.cardDescription:hover .cardInvisible{
+    opacity: 1;
+    pointer-events: auto;
+}

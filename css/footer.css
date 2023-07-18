@@ -1,7 +1,8 @@
 .footer {
     background: linear-gradient(to bottom,#000000, #1c333f);
     color: #ffffff;
-    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .footerDetails{
     display: flex;
