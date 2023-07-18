@@ -132,3 +132,57 @@
     opacity: 1;
     pointer-events: auto;
 }
+
+.cardInvisible {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.cardInvisible h4 {
+    font-size: x-small;
+    color: #a0a0a0;
+    margin-bottom: 0.25rem;
+    max-width: 100%;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+
+.cardInvisible h2 {
+    font-size: medium;
+    font-weight: 900;
+  }
+  /* Primer párrafo */
+.cardInvisible p:first-of-type {
+    font-size: medium;
+    color: #a0a0a0;
+    margin-bottom: 0.25rem;
+    max-width: 100%;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  /* Segundo párrafo*/
+  .cardInvisible p:nth-of-type(2) {
+    font-size:medium;
+    
+  }
+  /* Tercer párrafo */
+  .cardInvisible p:nth-of-type(3){
+    color: chocolate;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+/* Play icon */
+  .cardInvisible p[data-icon="z"]::before {
+    font-size: 40px; /* Tamaño del icono */
+    margin-right: 2px; /* Margen derecho */
+    vertical-align: -0.3em
+  }
+
+  /* Elipsis */
+  .cardInvisible p.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
