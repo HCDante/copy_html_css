@@ -29,9 +29,21 @@
     flex-direction: column;
 }
 .boxInvisible{
-    visibility: hidden;
+    /*visibility: hidden;
+    position: absolute;*/
+    opacity: 0;
     position: absolute;
+    pointer-events: none;
 }
+.boxSlider:hover .boxVisible {
+    opacity: 0;
+    pointer-events: none;
+}
+.boxSlider:hover .boxInvisible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 
 
 figure{
