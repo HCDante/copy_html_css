@@ -44,16 +44,26 @@
     position: relative;
     margin-left: 6px;
     background-color: black;
-    color: #ff944d;
-    border: 3px solid #ff944d;
+    color: #f47521;
+    border: 3px solid #f47521;
+}
+
+.btn1:hover{
+    border: 3px solid rgb(255, 148, 77);
+    color: rgb(255, 148, 77);
 }
 
 .btn2 {
     position: relative;
     padding: 16px 32px;
     background-color: black;
-    color: rgb(197, 184, 184);
+    color: gray;
     border: none;
+}
+
+.btn2:hover{
+    background: rgb(35, 37, 43);
+    color: rgb(219, 226, 221);
 }
 
 .description {
@@ -72,18 +82,26 @@
 .btn3 {
     padding: 8px 12px;
     margin-left: 0.5em;
-    background-color: #324953;
+    background-color: #192e38;
     color: white;
     border: none;
 
+}
+
+.btn3:hover {
+    background-color: #324953;
 }
 
 .btn4 {
     padding: 16px 73px;
     position: relative;
     margin-left: 6px;
-    background-color: #ff944d;
+    background-color: #f47521;
     font-weight: bold;
+}
+
+.btn4:hover{
+    background-color: rgb(255, 148, 77);;
 }
 
 table {
@@ -101,6 +119,10 @@ table .derecha {
 
 table .centro {
     width: 150px;
+}
+
+.img1{
+    height: 178px;
 }
 
 /* Fin de los estilos de episodeDescription */
