@@ -165,7 +165,9 @@
   /* Segundo párrafo*/
   .cardInvisible p:nth-of-type(2) {
     font-size:medium;
-    
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   /* Tercer párrafo */
   .cardInvisible p:nth-of-type(3){
@@ -181,8 +183,8 @@
   }
 
   /* Elipsis */
-  .cardInvisible p.ellipsis {
+  /*.cardInvisible p.ellipsis {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
+  }*/
