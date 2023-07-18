@@ -1,27 +1,29 @@
 .backgroundBlurred{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    height: 250px;
+    
 }
-.imageBlurred {
+.imageBlurred{
+    position: absolute;
+    width: 100%;
+    height: 250px;
     background-image: url(../src/headerDS.jpe);
     filter: blur(10px);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 300px;
     padding: 0;
     margin: 0;
 }
-.backgroundImage {
-    position: absolute;
-    background-image: url(../src/headerDS.jpe);
-    background-position: center center;
-    background-size: cover;
-    width: 40%;
-    height: 300px;
-    top: 0%;
-    left: 30%;
-    margin: 0;
-    padding: 0;
+img {
+    position: relative;
+    height: 250px;
+}
+@media screen and (max-width:240px){
+    img{
+        width: 100%;
+    }
 }

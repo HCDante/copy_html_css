@@ -48,7 +48,7 @@
     font-family: 'Maiandra GD';
 }
 .commentFooter {
-    color: rgb(184, 180, 180);
+    color: #b8b4b4;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -72,11 +72,11 @@
     gap: 10px;
     padding-top: 0%;
 }
-.bicon{
+.bIcon{
     background-color: black;
     color: rgb(184, 180, 180);
     border: none;
 }
-.bicon:hover{
+.bIcon:hover{
     color: white;
 }

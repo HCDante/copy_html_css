@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/imgHeader.css">
     <link rel="stylesheet" href="css/comments.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header class="header">
-        <div class="imageBlurred"> </div>
-        <div class="backgroundImage"> </div>   
+       
     </header>
 
     <section class="backgroundBlurred">
-
+        <div class="imageBlurred"></div> 
+        <img src="src/headerDS.jpe" alt="Imagen de fondo">
     </section>
 
     <section class="episodeDescription">
@@ -52,7 +53,7 @@
                 <div data-icon="g" class="icon"></div>
             </div>
             <h3 class="commentTitle">Exelente, mejor Anime de Año,100% Recomendado</h3>
-            <p class="commentText">Exelente, mejor Anime de Año,100% RecomendadoUfotable esta 
+            <p class="commentText">Exelente, mejor Anime de Agitño,100% RecomendadoUfotable esta 
                 haciendo un trabajo maravilloso con este proyecto Kimetsu no yaiba que siendo 
                 sincero es una de las mejores adaptaciones al anime, su música, su arte, etc.
                 Es para alabar, muchos creadores deberían tomar nota de esto, supieron llevar 
@@ -66,8 +67,8 @@
                     <button class="bAnswer">No</button>
                 </div>
                 <div class="footerIcons">
-                    <button data-icon="k" class="bicon"></button>
-                    <button data-icon="h" class="bicon"></button>
+                    <button data-icon="k" class="bIcon"></button>
+                    <button data-icon="h" class="bIcon"></button>
                 </div>
             </div>
         </div>
@@ -79,8 +80,8 @@
 
     <footer class="footer">
         <div class="footerDetails">
-            <div class="navigation">
-                <h4 class="footerTitle">Navegación</h4>
+            <div class="footerSection">
+                <h4>Navegación</h4>
                 <ul>
                     <li>Explorar lo más popular</li>
                     <li>Explorar los Simulcasts</li>
@@ -90,20 +91,20 @@
                     <li>Juegos</li>
                 </ul>
             </div>
-            <div class="socials">
-                <h4 class="footerTitle">Conecta con nosotros</h4>
+            <div class="footerSection">
+                <h4>Conecta con nosotros</h4>
                 <ul>
-                    <li>Youtube</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Instragram</li>
-                    <li>TikTok</li>
+                    <li class="iconList"><i data-icon="l" class="icon"></i> <span>Youtube</span></li>
+                    <li class="iconList"><i data-icon="m" class="icon"></i> <span>Facebook</span></li>
+                    <li class="iconList"><i data-icon="n" class="icon"></i> <span>Twitter</span></li>
+                    <li class="iconList"><i data-icon="o" class="icon"></i> <span>Instragram</span></li>
+                    <li class="iconList"><i data-icon="p" class="icon"></i> <span>TikTok</span></li>
                 </ul>
             </div>
-            <div class="about">
-                <h4 class="footerTitle">Crunchyroll</h4>
+            <div class="footerSection">
+                <h4>Crunchyroll</h4>
                 <ul>
-                    <li>Comienza tu Prueba Gratuita</li>
+                    <li class="iconListCrown"><i data-icon="E" class="icon"></i> <span>Comienza tu Prueba Gratuita </span></li>
                     <li>Acerca</li>
                     <li>Ayuda/FAQ</li>
                     <li>Términos de Uso</li>
@@ -115,16 +116,33 @@
                     <li>Empleo</li>
                 </ul>
             </div>
-            <div class="account">
-                <h4 class="footerTitle">Cuenta</h4>
+            <div class="footerSection">
+                <h4>Cuenta</h4>
                 <ul>
                     <li>Crear cuenta</li>
                     <li>Acceder</li>
                 </ul>
             </div>
         </div>
-        <p>Hola este es un pie de pagina</p>
-
+        <hr>
+        <div class="footerBottom">
+            <p data-icon="q" class="icon">Crunchyroll, LLC</p>
+            <div class="footerLanguage">
+                <span class="languageDropdown">
+                    <span data-icon="j" class="languageCurrent">ESPAÑOL</span>
+                        <ul class="languageOptions">
+                        <li><a href="#">Deutsch</a></li>
+                        <li><a href="#">English (US)</a></li>
+                        <li><a href="#">Español</a></li>
+                        <li><a href="#">Español (España)</a></li>
+                        <li><a href="#">Francais (Frances)</a></li>
+                        <li><a href="#">Italiano</a></li>
+                        <li><a href="#">Português (Brasil)</a></li>
+                        <li><a href="#">Português (Portugal)</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>     
     </footer>
 </body>
 </html>
